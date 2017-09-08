@@ -1,0 +1,36 @@
+tabla empresas: 
+
+-nombre comercial
+-telefono
+-estado
+-minicipio
+-calle
+-numero
+-rfc
+-nombre del contacto
+-email
+-telefono
+-extension
+-puesto
+-logotipo de la empresa 
+-sector
+
+
+tabla productos:
+
+-nombre
+-descripcion 
+-contenido
+-cantidad de producto requerido
+-unidad medida
+-tiempo de entrega
+-condiciones de pagos
+
+restricciones:
+
+? No debe permitir el registro de la misma empresa más de una vez.
+? Una misma empresa puede ser proveedor y cliente al mismo tiempo.
+? Se deben validar todos los campos, tanto para el registro de empresas, como para el
+registro de productos y/o servicios.
+? La aplicación podrá ser consultado tanto en pc, laptop y dispositivo móvil.
+
